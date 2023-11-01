@@ -1,0 +1,136 @@
+#img22{
+    display: none;
+}
+#btn{
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(50,48,64);
+    border-radius: 10px;
+    font-size: 1em;
+    transition: 0.5s ease-in-out;
+}
+#btn:hover{
+    transform:scale(1.1);
+    padding: 12px;
+}
+.social-icons{
+    position: relative;
+    bottom: 14em;
+    left: 8em;
+}
+.social-icons a{
+    color: rgb(50,48,64);
+    font-size: 1.8em;
+    padding-left: 20px;
+    transition: 0.5s ease-in-out;
+}
+.social-icons a:hover{
+    color: black;
+    padding: 5px;
+    font-size: 2em;
+}
+
+@media (max-width:380px) {
+    #img33{
+        display: none;
+    }
+    #img22{
+        position: relative;
+        bottom: 34em;
+        width: 200px;
+    }
+    #Hello{
+        color: black;
+        position: relative;
+        bottom: 2em;
+        font-size: 1.2em;
+    }
+    #btn{
+        position: relative;
+        bottom: 1.2em;
+    }
+    #sd{
+        color: black;
+        position: relative;
+        bottom: 1em;
+        font-size: 1.8em;
+    }
+    #home-section{
+        height: 500px;
+    }
+    #zz{
+        position: relative;
+        bottom: 2em;
+    }
+}
+
+@media (max-width:450px) {
+    #img33{
+        display: none;
+    }
+    #img22{
+        display: block;
+    }
+    #img33{
+        display: none;
+    }
+    #img22{
+        position: relative;
+        bottom: 34em;
+        width: 200px;
+    }
+    #Hello{
+        color: black;
+        position: relative;
+        bottom: 2em;
+        font-size: 1.2em;
+    }
+    #btn{
+        position: relative;
+        bottom: 1.2em;
+    }
+    #sd{
+        color: black;
+        position: relative;
+        bottom: 1em;
+        font-size: 1.8em;
+    }
+    #home-section{
+        height: 500px;
+    }
+}
+@media (max-width:950px) {
+    #img33{
+        display: none;
+    }
+    #img22{
+        display: block;
+    }
+    #img33{
+        display: none;
+    }
+    #img22{
+        position: relative;
+        bottom: 34em;
+        width: 200px;
+    }
+    #Hello{
+        color: black;
+        position: relative;
+        bottom: 2em;
+        font-size: 1.2em;
+    }
+    #btn{
+        position: relative;
+        bottom: 1.2em;
+    }
+    #sd{
+        color: black;
+        position: relative;
+        bottom: 1em;
+        font-size: 1.8em;
+    }
+    #home-section{
+        height: 500px;
+    }
+}
